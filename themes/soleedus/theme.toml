@@ -1,0 +1,8 @@
+name = "Soleedus"
+tags = ["clean", "simple", "blog", "portfolio", "flexbox", "css grid", "minimalist", "responsive", "syntax highlighting", "gallery", "starter"]
+features = ["responsive", "gallery"]
+min_version = "0.30"
+
+[author]
+  name = "Soleedus"
+  homepage = "https://soleedus.me"

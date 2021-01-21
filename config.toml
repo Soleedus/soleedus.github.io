@@ -1,0 +1,41 @@
+baseurl                 = "/"               # Your domain name. Must end with "/"
+languageCode            = "en-us"
+title                   = "SOLEEDUS"
+theme                   = "soleedus"
+# googleAnalytics       = "xxx"             # Tracking code, eg. "UA-111111111-1"
+
+pygmentscodefences = true
+pygmentsstyle = "monokai"
+pygmentsuseclassic = true
+
+[params]
+    dateform            = "Mon Jan 02, 2006"
+    dateformfull        = "Mon Jan 2 2006 15:04:05 EST"
+    favicon             = "/favicon.ico"
+    pygmentsstyle       = "monokai"                     # https://help.farbox.com/pygments.html
+    pygmentscodefences  = true 
+    homepage            = "main"                        # What to call the home page link
+    galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
+    clickablePhotos     = true                          # Allow links to the full size images
+    footerText          = "2019"
+
+# Metadata
+    description         = "SOLEEDUS - Personal Site"            # Max 160 characters show in search results
+    twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
+    primaryImage        = "/logo.png"                     # Image that shows on Twitter cards and OpenGraph links
+
+[[params.mainMenu]]
+    link = "/about"
+    text = "about"
+
+[[params.mainMenu]]
+    link = "mailto:andrew@soleedus.me"
+    text = "contact"
+
+[[params.mainMenu]]
+    link = "https://soleedus.me/store/"
+    text = "store"
+
+[[params.mainMenu]]
+    link = "https://cloud.soleedus.me/"
+    text = "cloud"
