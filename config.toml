@@ -17,7 +17,7 @@ pygmentsuseclassic = true
     homepage            = "main"                        # What to call the home page link
     galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
     clickablePhotos     = true                          # Allow links to the full size images
-    footerText          = "2019"
+    footerText          = "2021"
 
 # Metadata
     description         = "SOLEEDUS - Personal Site"            # Max 160 characters show in search results
@@ -31,10 +31,6 @@ pygmentsuseclassic = true
 [[params.mainMenu]]
     link = "mailto:andrew@soleedus.me"
     text = "contact"
-
-[[params.mainMenu]]
-    link = "https://soleedus.me/store/"
-    text = "store"
 
 [[params.mainMenu]]
     link = "https://cloud.soleedus.me/"
